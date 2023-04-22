@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MVC\" />
+    <None Remove="MVC\Model\" />
+    <None Remove="MVC\View\" />
+    <None Remove="MVC\Controller\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MVC\" />
+    <Folder Include="MVC\Model\" />
+    <Folder Include="MVC\View\" />
+    <Folder Include="MVC\Controller\" />
+  </ItemGroup>
+</Project>
