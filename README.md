@@ -13,7 +13,7 @@ QuickNote is a C# console app that follows the MVC design pattern, separating da
 3. Create a folder: MVC, each with subfolders representing Model, View, and Controller.
 4. Save classes Note into Model folder, NoteManager into Controller folder and Noteview into the View folder.
 5. Make sure that the NoteManager controller handles the CRUD operations
-6. The Note represents a data, where the controller communicates to this model to save it to JSON file
+6. The Note represents a data, where the controller communicates to this model to save it to JSON file, the view uses the controller as well to get various CRUD operations
 7. Create a menu system by instantiating the view with a Menu() method
 
 ## What is JSON?
@@ -23,4 +23,4 @@ JSON, or JavaScript Object Notation, is a lightweight and text-based data format
 1. Run the application.
 2. A terminal window will show a menu for selection.
 3. Follow the instructions on the screen to perform various CRUD operations.
-4. Press 0 to exit the application.
+4. Press 6 to exit the application.
